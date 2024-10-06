@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #6565f8;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    
+}
+.cont-tarjeta{
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    transform: translate(80px);
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(#9b81f4,#cec1fa,#fac1fa);
+    box-shadow: 4px 4px 20px rgb(0 0 0 /10%);
+    min-height: 600px;
+    max-width: 300px;
+    padding-top: 20px;
+   
+    
+}
+.cont-tarjeta__logo{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.cont-tarjeta__logo h1{
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 100px;
+    color: rgb(101, 76, 223);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: normal;
+    
+}
+.cont-tarjeta__logo img{
+    width: 150px;
+    height: 195;
+    border-radius: 50%;
+    min-width: 200px;
+    max-width: 200px;
+}
+.cont-tarjeta p{
+    text-align: center;
+    margin-top: 20px;
+    color: #9a9a9a;
+    font-weight: bolder;
+}
+.cont-tarjeta__iconos{
+    display: flex;
+    flex-direction: row;
+    transform: translateY(100px);
+    justify-content: center;
+}
+.cont-tarjeta__iconos div>img{
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+.cont-tarjeta__iconos div{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.cont-tarjeta__iconos div >p{
+    margin-top: 10px;
+}
+.cont-tarjeta__iconos div1{
+    background-color: #ff92926c;
+}
+.cont-tarjeta__iconos .div1:hover{
+    background-color: #ff9292e5;
+}
+.cont-tarjeta__iconos .div2{
+    background-color: #e6ddff;
+}
+.cont-tarjeta__iconos .div2:hover{
+    background-color: rgba(red, green, blue, alpha);
+}
+.cont-tarjeta article{
+    transform: translateY(130px);
+    text-align: center;
+    color: #6565f8;
+    font-weight: bolder;
+    line-height: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.qr{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.qr__img{
+    width: 100px;
+    height: 200;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
